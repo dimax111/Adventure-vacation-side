@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: sans-serif;
+}
+.wrapper {
+  background-color: black;
+  height: 100vh;
+  z-index: -1;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  height: 0px;
+  background-color: white;
+  min-width: 600px;
+}
+.box img {
+  height: 300px;
+  width: 100%;
+}
+.big {
+  display: grid;
+  position: absolute;
+  width: 100vw;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: calc(100vh - 625px);
+}
+p {
+  border-right: 0.1px solid rgb(201, 197, 197, 0.5);
+  display: block;
+  padding: 4rem 2rem;
+  color: black;
+  font-size: 32px;
+  text-align: left;
+  height: 180px;
+}
+.forest {
+  width: 70vw;
+  height: 50vh;
+  z-index: 0;
+  position: absolute;
+  min-width: 0px;
+  opacity: 0;
+}
+h1 {
+  font-size: 64px;
+  position: absolute;
+  z-index: 10;
+  bottom: 80vh;
+  width: 1100px;
+  height: 0px;
+  display: block;
+  overflow: hidden;
+}
+.svg {
+  position: absolute;
+  z-index: 100;
+  margin: 0 45vw;
+  overflow: hidden;
+  height: 0px;
+  bottom: 46vh;
+  opacity: 0;
+}
+.first {
+  overflow: hidden;
+  height: 0px;
+  position: relative;
+  bottom: 200px;
+}
+.second {
+  overflow: hidden;
+  height: 0px;
+  position: relative;
+  bottom: -100px;
+}
+.third {
+  overflow: hidden;
+  height: 0px;
+  position: relative;
+  bottom: -100px;
+}
+/*
+h1 {
+.box {
+  height: 630px;
+  background-color: white;
+  min-width: 600px;
+  display: none;
+}
+.box img {
+  height: 400px;
+  width: 100%;
+}
+.big {
+  display: grid;
+  position: absolute;
+  width: 100vw;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: calc(100vh - 625px);
+}
+*/
